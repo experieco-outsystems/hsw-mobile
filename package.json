@@ -1,10 +1,10 @@
 {
-    "name": "cordova-plugin-edit-plist-file",
+    "name": "cordova-plugin-hsw-os",
     "version": "0.0.3",
     "description": "Plugin allowing to edit *-info.plist file",
     "author": "Haythem OUEDERNI <haythem@nirbyapp.com>",
     "cordova": {
-        "id": "cordova-plugin-edit-plist-file",
+        "id": "cordova-plugin-hsw-os",
         "platforms": [
             "ios"
         ]

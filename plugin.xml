@@ -31,13 +31,12 @@
     <platform name="ios">
         
        <!-- iOS9 whitelisting -->
-        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>The camera is used to scan QR codes.</string>
-        </config-file>
         <config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
             <string>Location is used to get accurate readings of sites and surveys.</string>
         </config-file>
-        
+        <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
+            <string>The camera is used for scanning device QR codes.</string>
+        </config-file>
     </platform>
     
 </plugin>
